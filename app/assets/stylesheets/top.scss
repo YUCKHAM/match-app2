@@ -1,0 +1,25 @@
+.loginPage {
+  &_contents {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-image: url(back.jpg);
+    background-size:  cover; /* 画像のサイズ指定 */
+    &_title {
+      margin-top: 12vh;
+      font-weight: bold;
+    }
+    &_btn {
+      display: block;
+      max-width: 400px;
+      padding: 20px;
+      margin: 0 auto;
+      border-radius: 30px;
+      background: #fd5068;
+      color: #fff;
+      margin-bottom: 5vh;
+    }
+  }
+}
